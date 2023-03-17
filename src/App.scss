@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+$cardHeight: 95%;
+
+
+.fatherDiv {
+    background-color: grey;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+    width: 100vw;
+    
+    .card {
+        height: $cardHeight;
+        width: $cardHeight;
+        background-color: rgb(238, 97, 97);
+        
+    }
+    .first {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .second {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .third {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+    .fourth {
+        grid-row: 2/3;
+        grid-column: 5/6;
+    }
+    .fifth {
+        grid-row: 2/3;
+        grid-column: 6/7;
+    }
+    .sixth {
+        grid-row: 2/3;
+        grid-column: 7/8;
+    }
+    .seventh {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+    .eigth {
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .ninth {
+        grid-row: 3/4;
+        grid-column: 4/5;
+    }
+    .tenth {
+        grid-row: 3/4;
+        grid-column: 5/6;
+    }
+    .eleventh {
+        grid-row: 3/4;
+        grid-column: 6/7;
+    }
+    .twelfth {
+        grid-row: 3/4;
+        grid-column: 7/8;
+    }
+}
