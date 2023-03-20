@@ -3,12 +3,6 @@ import "./App.scss"
 import Card from './Card';
 
 function App() {
- const randomNumber = Math.floor(Math.random() * 12 +1)
-
-console.log(randomNumber)
-
-
-
 
   return (
     <div className='papaDiv'>

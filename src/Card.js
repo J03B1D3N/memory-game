@@ -106,6 +106,7 @@ const randomizeVal = () => {
       
           <div className="image">
             <img
+              onClick={randomizeVal}
               alt=""
               src={avatar[num]}
               id={charName[num]}
