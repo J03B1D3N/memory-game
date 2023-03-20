@@ -20,7 +20,11 @@ $cardHeight: 95%;
         height: $cardHeight;
         width: $cardHeight;
         background-color: rgb(238, 97, 97);
+        transition: 0.2s;
         
+    }
+    .card:hover {
+        scale: 1.05;
     }
     .first {
         grid-row: 2/3;

@@ -2,7 +2,12 @@ import React, { useState, useEffect } from 'react';
 import "./App.scss"
 
 function App() {
-  
+ const randomNumber = Math.floor(Math.random() * 12 +1)
+
+console.log(randomNumber)
+
+
+
 
   return (
     <div className='fatherDiv'>
