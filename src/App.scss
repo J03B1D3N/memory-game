@@ -16,6 +16,10 @@ $header-footer: 10%;
         height: $header-footer;
         background-color: black;
         width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .mamaDiv {

@@ -11,13 +11,17 @@ import Radagon from "./img/Radagon.jpg"
 import Radahn from "./img/Radahn.jpg"
 import Renala from "./img/Renala.jpg"
 
+import uniqid from 'uniqid'
+
 import { useState, useEffect } from "react";
 
 
 function Card(props) {
 
     const [valSequence, setValSequence] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
-    const [isRandomized, setIsRandomized] = useState(false);
+
+    const {score, setScore, bestScore, setBestScore} = props
+
     const [charName, setCharName] = useState([
 
         "Ancestral Spirit",
@@ -33,9 +37,9 @@ function Card(props) {
         "Radahn",
         "Renala"
 
-      ]);
+    ]);
 
-      const [avatar, setAvatar] = useState([
+    const [avatar, setAvatar] = useState([
 
         Ancestral,
         Astel,
@@ -50,9 +54,9 @@ function Card(props) {
         Radahn,
         Renala
 
-      ]);
+    ]);
 
-      const [pickedChar, setPickedChar] = useState([
+    const [pickedChar, setPickedChar] = useState([
 
         false,
         false,
@@ -67,12 +71,20 @@ function Card(props) {
         false,
         false,
 
-      ]);
+    ]);
+
+    function scorePoint(e, num) {
+        console.log(e.target)
+        
+        randomizeVal()
+    }
 
 
-let recordSet = []
 
-const randomizeVal = () => {
+
+    let recordSet = []
+
+    const randomizeVal = () => {
 
 
     
@@ -106,7 +118,9 @@ const randomizeVal = () => {
       
           <div className="image">
             <img
-              onClick={randomizeVal}
+              onMouseDown={(e) => {
+                scorePoint(e, num)
+              } }
               alt=""
               src={avatar[num]}
               id={charName[num]}
