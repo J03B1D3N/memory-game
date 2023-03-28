@@ -1,7 +1,7 @@
 {
   "name": "next-lesson",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://j03b1d3n.github.io/memory-game/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
