@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.078986dd.css",
+    "main.js": "/static/js/main.25696b4d.js",
+    "static/media/Margit.jpg": "/static/media/Margit.10ea07934bf0ef49285f.jpg",
+    "static/media/Radahn.jpg": "/static/media/Radahn.1920ce0b62c9d47b40fc.jpg",
+    "static/media/EldenBeast.jpg": "/static/media/EldenBeast.7d78369c804dbb8541e1.jpg",
+    "static/media/Radagon.jpg": "/static/media/Radagon.615cecd0a80cd4fc593c.jpg",
+    "static/media/MagmaWirm.png": "/static/media/MagmaWirm.e1f81002e576f93601b0.png",
+    "static/media/Renala.jpg": "/static/media/Renala.12643c032a2040e798d3.jpg",
+    "static/media/Astel.jpg": "/static/media/Astel.9c501c3c2b370817b58f.jpg",
+    "static/media/Godrick.jpg": "/static/media/Godrick.5072c3d1b24eb87af040.jpg",
+    "static/media/Dragonkin.png": "/static/media/Dragonkin.242af74a61962071239a.png",
+    "static/media/FireGiant.jpg": "/static/media/FireGiant.c5adee361700b261e478.jpg",
+    "static/media/AncestralSpirit.png": "/static/media/AncestralSpirit.83b9960ad4db535d45c8.png",
+    "static/media/Malenia.jpg": "/static/media/Malenia.d680d95a7bcf02961c0e.jpg",
+    "static/media/elden-ring.jpg": "/static/media/elden-ring.98359c8aff9ee7e85a81.jpg",
+    "index.html": "/index.html",
+    "main.078986dd.css.map": "/static/css/main.078986dd.css.map",
+    "main.25696b4d.js.map": "/static/js/main.25696b4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.078986dd.css",
+    "static/js/main.25696b4d.js"
+  ]
+}
