@@ -86,11 +86,20 @@ function Card(props) {
           
         })
         setPickedChar(updatedPickedCharArray)
+      } else {
+        if(bestScore < score) {
+          setBestScore(score)
+        }
+        setScore(0)
+        const updatedPickedCharArray = pickedChar.map((entry,i) => {
+            
+          return entry = false
+        
+        
+      })
+      setPickedChar(updatedPickedCharArray)
       }
-      
-      
-      
-      
+
         randomizeVal()
 
     }
