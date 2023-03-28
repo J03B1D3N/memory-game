@@ -4,6 +4,7 @@
     padding: 0;
 }
 $header-footer: 10%;
+$header-footer-bc: #ECBC57;
 .grandPapaDiv {
     background-color: black;
     height: 100vh;
@@ -30,19 +31,20 @@ $header-footer: 10%;
 .papaDiv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: grey;
-    .header {
-        height: $header-footer;
-        background-color: black;
-        width: 100%;
-        color: white;
+    background-color: #233e3b;
+    .title {
+        font-size: 6rem;
+        color: #ECBC57;
+    }
+    .ScoreBoard {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        color: #ECBC57;
     }
 
     .mamaDiv {
@@ -68,11 +70,7 @@ $header-footer: 10%;
         }
         
     }
-    .footer {
-        height: $header-footer;
-        background-color: black;
-        width: 100%;
-    }
+    
 }
 
 

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import "./App.scss"
 import Card from './Card';
-import Scoreboard from './img/ScoreBoard';
+import Scoreboard from './ScoreBoard';
 import TitleScreenDom from './TitleScreen';
 import "animate.css"
+import Title from './Title';
 
 
 
@@ -22,13 +23,13 @@ function App() {
   } else {
     return (
       <div className='papaDiv  animate__animated animate__fadeIn'>
+        <Title/>
         <Scoreboard score={score} bestScore={bestScore} />
         <div className='mamaDiv'>
           <Card score={score} setScore={setScore} bestScore={bestScore} setBestScore={setBestScore}/>
       
           </div>
-          <div className='footer'>
-          </div>
+
       </div>
   );
   }
