@@ -74,9 +74,25 @@ function Card(props) {
     ]);
 
     function scorePoint(e, num) {
-        console.log(e.target)
-        
+      console.log(e.target)
+      if(pickedChar[num] === false) {
+        setScore(score +1)
+        const updatedPickedCharArray = pickedChar.map((entry,i) => {
+          if(i === num) {
+            return entry = true
+          } else {
+            return entry
+          }
+          
+        })
+        setPickedChar(updatedPickedCharArray)
+      }
+      
+      
+      
+      
         randomizeVal()
+
     }
 
 
